@@ -36,6 +36,7 @@ const lexend = Lexend({
 
 const notoSansSC = Noto_Sans_SC({
 	display: "swap",
+	preload: false,
 	variable: "--font-noto-sans-sc",
 })
 
@@ -47,6 +48,7 @@ const vollkorn = Vollkorn({
 
 const notoSerifSC = Noto_Serif_SC({
 	display: "swap",
+	preload: false,
 	variable: "--font-noto-serif-sc",
 })
 
