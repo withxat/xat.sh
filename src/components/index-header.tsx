@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import LogoSvg from "@/assets/svg/Logo.svg"
+import IndexSvg from "@/assets/svg/🏕️.svg"
 import { BaseHeader } from "@/components/base-header"
 
 export function IndexHeader() {
@@ -11,7 +11,7 @@ export function IndexHeader() {
 				alt="Logo"
 				className="size-14"
 				height={200}
-				src={LogoSvg}
+				src={IndexSvg}
 				width={200}
 			/>
 			<section className="flex flex-col gap-2">

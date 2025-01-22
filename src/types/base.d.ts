@@ -8,3 +8,5 @@ interface Frontmatter {
 }
 
 type WritingCategory = keyof typeof import("@/types/common").WritingCategoryIcon
+
+type PostsByYear = Record<number, Frontmatter[]>
