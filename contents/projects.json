@@ -1,0 +1,20 @@
+[
+	{
+		"title": "ESLint-Config",
+		"description": "🧃 Xat's ESLint config preset / Xat 自用强迫症 ESLint 配置",
+		"link": "https://github.com/withxat/eslint-config",
+		"icon": "i-mingcute-bird-line"
+	},
+	{
+		"title": "Matebook-14-2019-Hackintosh",
+		"description": "🚀 Transform your MateBook 14 2019 into a Hackintosh / 为 Matebook 14 2019 安装上黑苹果",
+		"link": "https://github.com/withxat/Matebook-14-2019-Hackintosh",
+		"icon": "i-mingcute-apple-line"
+	},
+	{
+		"title": "OpenCat.app",
+		"description": "👨‍🎨 Redesign OpenCat website / 重新设计 OpenCat 网站",
+		"link": "https://github.com/waylybaye/opencat.app",
+		"icon": "i-mingcute-openai-line"
+	}
+]
