@@ -5,6 +5,11 @@ import { Doto, Lexend, Noto_Sans_SC, Noto_Serif_SC, Vollkorn } from "next/font/g
 import "@/styles/globals.css"
 
 export const metadata: Metadata = {
+	alternates: {
+		types: {
+			"application/rss+xml": "/feed.xml",
+		},
+	},
 	authors: [{ name: "Xat" }],
 	creator: "Xat",
 	description: "✨ Coding with Love, Exploring the World.",

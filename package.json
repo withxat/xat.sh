@@ -27,6 +27,7 @@
 		"next-mdx-remote": "^5.0.0",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
+		"rss": "^1.2.2",
 		"tailwind-merge": "^2.6.0"
 	},
 	"devDependencies": {
@@ -36,6 +37,7 @@
 		"@types/node": "^22.10.7",
 		"@types/react": "^19.0.7",
 		"@types/react-dom": "^19.0.3",
+		"@types/rss": "^0.0.32",
 		"@xats/eslint-config": "^2.0.2",
 		"eslint": "^9.18.0",
 		"lefthook": "^1.10.10",
