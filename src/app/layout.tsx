@@ -2,8 +2,6 @@ import type { Metadata } from "next"
 
 import { Doto, Lexend, Noto_Sans_SC, Noto_Serif_SC, Vollkorn } from "next/font/google"
 
-import Menu from "@/components/menu"
-
 import "@/styles/globals.css"
 
 export const metadata: Metadata = {
@@ -63,7 +61,6 @@ export default function RootLayout({
 			<body
 				className="flex min-h-screen flex-col items-center scroll-smooth bg-theme p-4 antialiased"
 			>
-				<Menu />
 				{children}
 				<footer className="pb-2 pt-4 text-center text-sm text-white">
 					<span>Coding with Love, Exploring the World</span>
