@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 
 import { Doto, Lexend, Noto_Sans_SC, Noto_Serif_SC, Vollkorn } from "next/font/google"
+import Script from "next/script"
 
 import "@/styles/globals.css"
 
@@ -65,6 +66,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html className={`${doto.variable} ${lexend.variable} ${notoSansSC.variable} ${notoSerifSC.variable} ${vollkorn.variable}`} lang="zh">
+			<Script
+				async
+				data-website-id="0b3c909d-3680-47f1-88f1-ae337236d0cd"
+				src="https://cloud.umami.is/script.js"
+			/>
 			<body
 				className="flex min-h-screen flex-col items-center scroll-smooth bg-theme p-4 antialiased"
 			>
